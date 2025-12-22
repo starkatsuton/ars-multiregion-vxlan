@@ -41,6 +41,8 @@ Region 1 (Hub01)                          Region 2 (Hub02)
 └─────────────────────┘                   └─────────────────────┘
 ```
 
+> **Note:** While the diagram shows a multi-region architecture, the Terraform scripts deploy all infrastructure within a single Azure region. The "Region 1" and "Region 2" labels represent logical separation rather than physical geographic regions. This design allows you to test multi-region routing patterns without the additional cost and complexity of true multi-region deployment.
+
 ### Components
 
 #### Virtual Networks
