@@ -129,7 +129,7 @@ The [variables.tf](variables.tf) file contains the following configurable parame
 | `location` | `<region_name>` | Azure region for deployment |
 | `subscription_id` | `<your-subscription-id>` | Azure subscription ID |
 
-**⚠️ Important**: Update the `subscription_id` in [variables.tf](variables.tf) with your own Azure subscription ID before deployment.
+**⚠️ Important**: Update the `ars_rg_name`, `location` and `subscription_id` in [variables.tf](variables.tf) with your own Azure resource group, preferred region and subscription ID before deployment.
 
 ## Deployment
 
@@ -151,7 +151,7 @@ ssh-keygen -t rsa -b 4096 -f keys/kadmin_key -N ""
 
 ### Step 3: Update Variables
 
-Edit [variables.tf](variables.tf) and update the `ars_rg_name`, `location` and `subscription_id` variables with your Azure Resource Group, preferred region and subscription ID:
+Edit [variables.tf](variables.tf) and update the `ars_rg_name`, `location` and `subscription_id` variables with your Azure resource group, preferred region and subscription ID:
 
 ```terraform
 variable "ars_rg_name" {
