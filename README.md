@@ -1,5 +1,11 @@
 # Azure Route Server Multi-Region Lab
 
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)
+
 This Terraform project deploys a multi-region Azure hub-and-spoke network topology with Azure Route Servers (ARS) and Network Virtual Appliances (NVAs) connected via VXLAN tunnels. The infrastructure demonstrates advanced routing scenarios using BGP peering between Azure Route Servers and NVAs across different regions.
 
 ## Architecture Overview
