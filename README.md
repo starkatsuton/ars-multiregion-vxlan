@@ -203,7 +203,7 @@ After the infrastructure is deployed, you need to configure the NVAs manually:
 2. Run the configuration script:
    ```bash
    sudo bash
-   # Copy and paste the contents of nva01_configuration.sh
+   # Copy and paste the contents of scripts/nva01_configuration.sh
    ```
 
 ### Configure NVA02
@@ -216,7 +216,7 @@ After the infrastructure is deployed, you need to configure the NVAs manually:
 2. Run the configuration script:
    ```bash
    sudo bash
-   # Copy and paste the contents of nva02_configuration.sh
+   # Copy and paste the contents of scripts/nva02_configuration.sh
    ```
 
 ## Verification
