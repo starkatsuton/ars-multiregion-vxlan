@@ -207,6 +207,8 @@ resource "azurerm_virtual_network_peering" "spoke01-hub01" {
 
   allow_forwarded_traffic = true
   use_remote_gateways = true
+
+  depends_on = [ azurerm_route_server.ars01 ]
 }
 
 resource "azurerm_virtual_network_peering" "hub02-spoke02" {
@@ -226,6 +228,8 @@ resource "azurerm_virtual_network_peering" "spoke02-hub02" {
 
   allow_forwarded_traffic = true
   use_remote_gateways = true
+
+  depends_on = [ azurerm_route_server.ars02 ]
 }
 
 ##################################################################
